@@ -33,9 +33,9 @@ perl $0
   -call_pl  /home/wangsc/pl_scripts/unifiedgenotyper.pl
   -ref      /home/wangsc/scratch_fast/ref_data/Dgenome/Dgenome.fa
   -refindex /home/wangsc/scratch_fast/ref_data/Dgenome/Dgenome_bt2_index
-); 
 
 Once the bsub scripts are generated, run "ls *.bsub |perl submit_sequential_jobs.pl" to submit all the jobs.
+); 
  
 }
 
